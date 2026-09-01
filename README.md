@@ -7,7 +7,7 @@ Personal portfolio website for **Tanuj Sharma**, a Founding Engineer focused on 
 **LinkedIn:** [tanuj-sharma1412](https://www.linkedin.com/in/tanuj-sharma1412/)
 
 **GitHub:** [tanujsharma1412](https://github.com/tanujsharma1412)
-**Resume:** [View resume](https://drive.google.com/file/d/1biSzTz9jjx4RRxxHwhPgDQXfAg4qQwue/view?usp=sharing)
+**Resume:** [View resume](https://drive.google.com/file/d/1f0DLUS-BElh3mVQwL8o3ejTnMv-kwg60/view?usp=sharing)
 
 ## Overview
 
