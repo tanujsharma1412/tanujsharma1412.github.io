@@ -61,67 +61,59 @@
 
   <main id="top">
     <section class="hero shell">
-      <p class="eyebrow">Senior Software Engineer – Backend · Vegapay · Gurugram, India</p>
       <div class="hero-grid">
-        <div>
+        <div class="hero-main">
+          <p class="eyebrow">Senior Software Engineer – Backend · Vegapay · Gurugram, India</p>
+          <p class="hero-name">Tanuj Sharma</p>
           <h1>Building resilient credit and payments infrastructure.</h1>
-        </div>
-        <div class="hero-copy">
-          <figure class="hero-portrait">
-            <img src="images/tanuj-sharma.jpg" alt="Tanuj Sharma" width="437" height="480" fetchpriority="high">
-          </figure>
-          <p>Backend engineer with 5+ years building credit card and lending systems (CMS, Credit Line on UPI, EMI engines, disputes, double-entry ledgers) with Java, Spring Boot, Kafka, and PostgreSQL on AWS.</p>
+          <p class="hero-lede">Backend engineer with 5+ years building credit card and lending systems (CMS, Credit Line on UPI, EMI engines, disputes, double-entry ledgers) with Java, Spring Boot, Kafka, and PostgreSQL on AWS.</p>
           <div class="hero-actions">
             <a class="button button-primary" href="Tanuj_Sharma_Senior_Backend_Engineer.pdf" download>Download résumé <span aria-hidden="true">↓</span></a>
             <a class="button button-quiet" href="mailto:tanujsharma1412@gmail.com">Email me <span aria-hidden="true">↗</span></a>
           </div>
         </div>
+        <figure class="hero-portrait">
+          <img src="images/tanuj-sharma.jpg" alt="Tanuj Sharma" width="437" height="480" fetchpriority="high">
+        </figure>
       </div>
       <dl class="impact-strip" aria-label="Career highlights">
         <div><dt>1M+</dt><dd>transactions per day</dd></div>
         <div><dt>99.99%</dt><dd>measured availability</dd></div>
         <div><dt>₹1,344 Cr+</dt><dd>lifetime transaction volume</dd></div>
-        <div><dt>11th → 135+</dt><dd>employee at Vegapay, and the team today</dd></div>
+        <div><dt>11th → <strong>135+</strong></dt><dd>employee at Vegapay, and the team today</dd></div>
       </dl>
     </section>
 
-    <section class="statement shell">
-      <p class="section-kicker">What I do</p>
-      <div class="statement-grid">
-        <h2>I turn complex financial workflows into dependable, scalable software.</h2>
-        <p>My work spans end-to-end backend delivery: platform architecture, APIs, asynchronous processing, observability, and the operational rigor required for systems that move money and manage credit.</p>
-      </div>
-    </section>
 
     <section class="experience shell section" id="experience">
       <div class="section-heading"><p class="section-kicker">Experience</p><p>Backend roles across credit cards, Credit Line on UPI, and payments.</p></div>
       <div class="timeline">
         <article class="role">
           <div class="role-meta"><span>Mar 2023 — Present</span><span>Gurugram, India</span></div>
-          <div class="role-body"><h3>Senior Software Engineer – Backend — Vegapay</h3><p class="role-summary">B2B credit card and lending infrastructure for banks and fintechs. Joined as the 11th employee; company now 135+.</p><ul>
-            <li>Designed and built the core Credit Card Management System (CMS) and the Credit Line on UPI platform before the team scaled; it now handles 1M+ transactions/day and INR 1,344 Cr+ lifetime volume.</li>
+          <div class="role-body"><h3>Senior Software Engineer – Backend — Vegapay</h3><p class="role-summary">B2B credit card and lending infrastructure for banks and fintechs. Joined as the <strong>11th employee</strong>; company now <strong>135+</strong>.</p><ul>
+            <li>Designed and built the core Credit Card Management System (CMS) and the Credit Line on UPI platform before the team scaled; it now handles <strong>1M+ transactions/day</strong> and <strong>INR 1,344 Cr+</strong> lifetime volume.</li>
             <li>Owned the Unity × BharatPe RuPay credit card backend end-to-end: issuance, ISO 8583 authorization (including international transactions), limits, EMI engine, and double-entry ledger.</li>
             <li>Technical point of contact for Unity Bank and BharatPe through the card go-live; also integrated Credit Line on UPI programs for SSFB × Paytm and YBL × BharatPe.</li>
-            <li>Run 12 production microservices at 99.99% availability and a 99.99% transaction success rate, with P99 authorization latency under 150ms.</li>
-            <li>Banks were escalating duplicate and silently dropped transactions: made APIs and Kafka consumers idempotent (DB unique constraints) and added retries, DLQ, and alerts, cutting escalations 70%.</li>
+            <li>Run 12 production microservices at <strong>99.99% availability</strong> and a <strong>99.99% transaction success rate</strong>, with P99 authorization latency <strong>under 150ms</strong>.</li>
+            <li>Banks were escalating duplicate and silently dropped transactions: made APIs and Kafka consumers idempotent (DB unique constraints) and added retries, DLQ, and alerts, <strong>cutting escalations 70%</strong>.</li>
             <li>To stop losing events during Kafka outages, designed a transactional outbox: events are saved in the same DB transaction as the business change, then published and replayed after recovery.</li>
-            <li>Cut P99 latency 65% and P50 40% on the Block Code (card risk control), transaction, and bill services using Redis cache-aside, fewer redundant calls, and async Kafka steps.</li>
-            <li>Mentor 4–5 engineers; guided and reviewed their delinquency and collections module (INR 29 Cr+ collected); helped raise unit test coverage to 80%+.</li>
+            <li>Cut <strong>P99 latency 65%</strong> and <strong>P50 40%</strong> on the Block Code (card risk control), transaction, and bill services using Redis cache-aside, fewer redundant calls, and async Kafka steps.</li>
+            <li>Mentor 4–5 engineers; guided and reviewed their delinquency and collections module (<strong>INR 29 Cr+</strong> collected); helped raise unit test coverage to <strong>80%+</strong>.</li>
           </ul></div>
         </article>
         <article class="role">
           <div class="role-meta"><span>Jul 2021 — Mar 2023</span><span>Gurugram, India</span></div>
           <div class="role-body"><h3>Software Developer — BharatPe</h3><p class="role-summary">Backend for BharatPe Card and PostPe card, from onboarding through activation to spend limits.</p><ul>
-            <li>Built BharatPe Card and PostPe card lifecycle features (1M+ active accounts): onboarding, activation, spend limits.</li>
+            <li>Built BharatPe Card and PostPe card lifecycle features (<strong>1M+ active accounts</strong>): onboarding, activation, spend limits.</li>
             <li>Integrated card platforms Happay and Zeta so card numbers were not stored in BharatPe systems.</li>
-            <li>Optimized onboarding and authorization queries and indexes, cutting latency from 0.9–1.5s to under 400ms.</li>
-            <li>Customers were stalling between onboarding stages; debugged the failures and restructured the flow logic, getting 45% of stuck customers fully onboarded.</li>
+            <li>Optimized onboarding and authorization queries and indexes, cutting latency from <strong>0.9–1.5s to under 400ms</strong>.</li>
+            <li>Customers were stalling between onboarding stages; debugged the failures and restructured the flow logic, getting <strong>45% of stuck customers</strong> fully onboarded.</li>
           </ul></div>
         </article>
         <article class="role">
           <div class="role-meta"><span>Feb 2021 — Jul 2021</span><span>Remote / Bangalore</span></div>
           <div class="role-body"><h3>Software Engineer Intern — Grab</h3><ul>
-            <li>Built a concurrent Golang diagnostic service that detects failovers and connection-pool exhaustion across MySQL, PostgreSQL, and MSSQL, cutting developer MTTR by 80%.</li>
+            <li>Built a concurrent Golang diagnostic service that detects failovers and connection-pool exhaustion across MySQL, PostgreSQL, and MSSQL, cutting developer <strong>MTTR by 80%</strong>.</li>
           </ul></div>
         </article>
         <article class="role role-education">
@@ -129,26 +121,25 @@
           <div class="role-body"><h3>B.Tech, Computer Science &amp; Engineering</h3><p class="role-summary">Poornima College of Engineering</p></div>
         </article>
       </div>
-      <p class="resume-note">Same facts, one page: <a href="Tanuj_Sharma_Senior_Backend_Engineer.pdf" download>download my résumé (PDF) <span aria-hidden="true">↓</span></a>.</p>
     </section>
 
     <section class="expertise section" id="expertise">
       <div class="shell">
         <div class="section-heading"><p class="section-kicker">Expertise</p><p>The stack I work in daily and the domain I have built in.</p></div>
         <div class="expertise-grid">
-          <article><p class="expertise-number">01</p><h3>Languages &amp; frameworks</h3><p>Java 11, Spring Boot, Golang, Python, SQL, REST APIs, Webhooks, JUnit, Mockito.</p></article>
-          <article><p class="expertise-number">02</p><h3>Distributed systems &amp; data</h3><p>Microservices, event-driven architecture, idempotency, transactional outbox, Apache Kafka (transactions, consumer groups, DLQ), Redis, PostgreSQL, MySQL.</p></article>
-          <article><p class="expertise-number">03</p><h3>Cloud, observability &amp; tooling</h3><p>AWS (ECS, RDS Aurora, Lambda, SQS, S3), Docker, Kubernetes, CI/CD, OpenTelemetry, Prometheus, Grafana, Resilience4j, Claude (AI-assisted development).</p></article>
-          <article><p class="expertise-number">04</p><h3>Fintech domain &amp; standards</h3><p>Card issuance, CMS, LMS, Credit Line on UPI, RuPay, EMI, disputes, double-entry ledger, ISO 8583, NPCI settlement reconciliation, PCI-DSS (audit).</p></article>
+          <article><p class="expertise-number">01</p><h3>Languages &amp; frameworks</h3><ul class="chips"><li>Java 11</li><li>Spring Boot</li><li>Golang</li><li>Python</li><li>SQL</li><li>REST APIs</li><li>Webhooks</li><li>JUnit</li><li>Mockito</li></ul></article>
+          <article><p class="expertise-number">02</p><h3>Distributed systems &amp; data</h3><ul class="chips"><li>Microservices</li><li>Event-driven architecture</li><li>Idempotency</li><li>Transactional outbox</li><li>Apache Kafka (transactions, consumer groups, DLQ)</li><li>Redis</li><li>PostgreSQL</li><li>MySQL</li></ul></article>
+          <article><p class="expertise-number">03</p><h3>Cloud, observability &amp; tooling</h3><ul class="chips"><li>AWS (ECS, RDS Aurora, Lambda, SQS, S3)</li><li>Docker</li><li>Kubernetes</li><li>CI/CD</li><li>OpenTelemetry</li><li>Prometheus</li><li>Grafana</li><li>Resilience4j</li><li>Claude (AI-assisted development)</li></ul></article>
+          <article><p class="expertise-number">04</p><h3>Fintech domain &amp; standards</h3><ul class="chips"><li>Card issuance</li><li>CMS</li><li>LMS</li><li>Credit Line on UPI</li><li>RuPay</li><li>EMI</li><li>Disputes</li><li>Double-entry ledger</li><li>ISO 8583</li><li>NPCI settlement reconciliation</li><li>PCI-DSS (audit)</li></ul></article>
         </div>
       </div>
     </section>
 
     <section class="projects shell section" id="projects">
-      <div class="section-heading"><p class="section-kicker">Earlier work</p><p>A selection of technical projects.</p></div>
-      <div class="project-grid">
-        <article class="project-card"><p class="project-type">Machine learning · 2020</p><h3>DeepFake media detection</h3><p>Used convolutional neural networks for image classification and combined neural architectures for video-frame analysis, with a Django interface for real-time media uploads and classification.</p><p class="project-stack">Python · Django · CNNs · Deep neural networks</p><a href="https://github.com/tanujsharma1412/SIH2020" target="_blank" rel="noopener noreferrer">View on GitHub <span aria-hidden="true">↗</span></a></article>
-        <article class="project-card"><p class="project-type">Backend engineering · 2020</p><h3>Food ordering API</h3><p>Implemented a location-aware REST API for retrieving and ranking restaurants based on user GPS coordinates, with a standardized JSON data exchange format.</p><p class="project-stack">Java · Spring Boot · Gradle · Mockito · REST APIs</p><a href="https://github.com/tanujsharma1412" target="_blank" rel="noopener noreferrer">Explore GitHub <span aria-hidden="true">↗</span></a></article>
+      <div class="section-heading"><p class="section-kicker">Earlier work</p><p>Student projects from 2020.</p></div>
+      <div class="project-list">
+        <article class="project"><div class="project-meta"><span>2020</span><span>Machine learning</span></div><div class="project-body"><h3>DeepFake media detection</h3><p>Convolutional neural networks for image classification and combined architectures for video-frame analysis, with a Django interface for real-time media uploads.</p><p class="project-stack">Python · Django · CNNs</p></div><a href="https://github.com/tanujsharma1412/SIH2020" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></article>
+        <article class="project"><div class="project-meta"><span>2020</span><span>Backend</span></div><div class="project-body"><h3>Food ordering API</h3><p>Location-aware REST API that retrieves and ranks restaurants by the user’s GPS coordinates, with a standardized JSON exchange format.</p><p class="project-stack">Java · Spring Boot · Gradle · Mockito</p></div><a href="https://github.com/tanujsharma1412" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></article>
       </div>
     </section>
 
