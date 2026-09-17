@@ -1,13 +1,13 @@
 # Tanuj Sharma — Portfolio
 
-Personal portfolio website for **Tanuj Sharma**, a Founding Engineer focused on fintech, credit infrastructure, payment processing, and distributed backend systems.
+Personal portfolio website for **Tanuj Sharma**, a Senior Software Engineer (Backend) focused on credit cards, Credit Line on UPI, and payments infrastructure.
 
 **Live site:** [tanujsharma1412.github.io](https://tanujsharma1412.github.io/)
 
 **LinkedIn:** [tanuj-sharma1412](https://www.linkedin.com/in/tanuj-sharma1412/)
 
 **GitHub:** [tanujsharma1412](https://github.com/tanujsharma1412)
-**Resume:** [View resume](https://drive.google.com/file/d/1f0DLUS-BElh3mVQwL8o3ejTnMv-kwg60/view?usp=sharing)
+**Resume:** [Tanuj_Sharma_Senior_Backend_Engineer.pdf](Tanuj_Sharma_Senior_Backend_Engineer.pdf)
 
 ## Overview
 
@@ -16,8 +16,8 @@ This is a fast, responsive, single-page static portfolio designed to give recrui
 It highlights:
 
 - 5+ years of backend engineering experience
-- 4+ bank-fintech partnerships
-- Platforms supporting 500K+ active clients
+- 1M+ transactions/day at 99.99% availability, INR 1,344 Cr+ lifetime volume
+- Joined Vegapay as the 11th employee; company now 135+
 - Experience in credit infrastructure, card issuance, payment processing, banking integrations, and distributed systems
 - Professional experience at Vegapay, BharatPe, and Grab
 - Selected projects in DeepFake media detection and backend API development
