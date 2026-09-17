@@ -66,7 +66,7 @@ This repository is configured for GitHub Pages. Push changes to the publishing b
 - Update professional details, role descriptions, projects, and contact links in `index.html`.
 - Update typography, colors, responsive behavior, and layout in `main.css`.
 - Add or replace image files in `images/`, then update their paths in `index.html`.
-- Keep the resume link in the `resume-note` section of `index.html` current.
+- Replace `Tanuj_Sharma_Senior_Backend_Engineer.pdf` to update the resume; all links point to it.
 
 ## Contact
 
