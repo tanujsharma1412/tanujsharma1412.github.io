@@ -89,16 +89,25 @@
       <div class="section-heading"><p class="section-kicker">Experience</p><p>Backend roles across credit cards, Credit Line on UPI, and payments.</p></div>
       <div class="timeline">
         <article class="role">
-          <div class="role-meta"><span>Mar 2023 — Present</span><span>Gurugram, India</span></div>
+          <div class="role-meta"><span>Apr 2025 — Present</span><span>Gurugram, India</span></div>
           <div class="role-body"><h3>Senior Software Engineer – Backend — Vegapay</h3><p class="role-summary">B2B credit card and lending infrastructure for banks and fintechs. Joined as the <strong>11th employee</strong>; company now <strong>135+</strong>.</p><ul>
-            <li>Designed and built the core Credit Card Management System (CMS) and the Credit Line on UPI platform before the team scaled; it now handles <strong>1M+ transactions/day</strong> and <strong>INR 1,344 Cr+</strong> lifetime volume.</li>
             <li>Owned the Unity × BharatPe RuPay credit card backend end-to-end: issuance, ISO 8583 authorization (including international transactions), limits, EMI engine, and double-entry ledger.</li>
             <li>Technical point of contact for Unity Bank and BharatPe through the card go-live; also integrated Credit Line on UPI programs for SSFB × Paytm and YBL × BharatPe.</li>
             <li>Run 12 production microservices at <strong>99.99% availability</strong> and a <strong>99.99% transaction success rate</strong>, with P99 authorization latency <strong>under 150ms</strong>.</li>
-            <li>Banks were escalating duplicate and silently dropped transactions: made APIs and Kafka consumers idempotent (DB unique constraints) and added retries, DLQ, and alerts, <strong>cutting escalations 70%</strong>.</li>
-            <li>To stop losing events during Kafka outages, designed a transactional outbox: events are saved in the same DB transaction as the business change, then published and replayed after recovery.</li>
             <li>Cut <strong>P99 latency 65%</strong> and <strong>P50 40%</strong> on the Block Code (card risk control), transaction, and bill services using Redis cache-aside, fewer redundant calls, and async Kafka steps.</li>
+            <li>Banks were escalating duplicate and silently dropped transactions: made APIs and Kafka consumers idempotent (DB unique constraints) and added retries, DLQ, and alerts, <strong>cutting escalations 70%</strong>.</li>
+            <li>Fixed an EMI ledger double-posting race (sync and async Kafka write paths) seen only under production latency: moved EMI to one sync writer, reconciled affected entries, and set a single-writer rule for ledger flows.</li>
+            <li>Drove splitting a shared commons library (used by all <strong>13 services</strong>) into versioned domain libraries despite pushback; built the Kafka module first, trading release overhead for lower coupling (ongoing).</li>
             <li>Mentor 4–5 engineers; guided and reviewed their delinquency and collections module (<strong>INR 29 Cr+</strong> collected); helped raise unit test coverage to <strong>80%+</strong>.</li>
+          </ul></div>
+        </article>
+        <article class="role">
+          <div class="role-meta"><span>Mar 2023 — Apr 2025</span><span>Gurugram, India</span></div>
+          <div class="role-body"><h3>Software Engineer – Backend — Vegapay</h3><ul>
+            <li>Designed and built the core Credit Card Management System (CMS) and the Credit Line on UPI platform before the team scaled; it now handles <strong>1M+ transactions/day</strong> and <strong>INR 1,344 Cr+</strong> lifetime volume.</li>
+            <li>To stop losing events during Kafka outages, designed a transactional outbox: events are saved in the same DB transaction as the business change, then published and replayed after recovery.</li>
+            <li>Designed and built daily book closure as parallel workflows across services with optimized DB access, producing <strong>800K+ user bills</strong> within an hour.</li>
+            <li>Built the notification engine (SMS, email, WhatsApp) from scratch on Spring Boot, Kafka, and Redis; it sends <strong>2M+ messages/day</strong> for <strong>5 issuing banks</strong>.</li>
           </ul></div>
         </article>
         <article class="role">
@@ -111,7 +120,7 @@
           </ul></div>
         </article>
         <article class="role">
-          <div class="role-meta"><span>Feb 2021 — Jul 2021</span><span>Remote / Bangalore</span></div>
+          <div class="role-meta"><span>Feb 2021 — Jul 2021</span><span>Remote / Bangalore, India</span></div>
           <div class="role-body"><h3>Software Engineer Intern — Grab</h3><ul>
             <li>Built a concurrent Golang diagnostic service that detects failovers and connection-pool exhaustion across MySQL, PostgreSQL, and MSSQL, cutting developer <strong>MTTR by 80%</strong>.</li>
           </ul></div>
